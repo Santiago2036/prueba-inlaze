@@ -26,4 +26,5 @@ Puedes ejecutar la aplicacion o seguir estos pasos desde la raiz del proyecto:
     npm run start:dev
 
     la aplicacion quedo documentada con swagger en la ruta : http://localhost:3000/docs  para dev.
+    tambien se adjunta la coleccion del postman.
 ```
