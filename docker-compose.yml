@@ -1,0 +1,16 @@
+version: '3.3'
+
+services:
+  database: 
+    image: postgres
+
+    environment:
+      - POSTGRES_DB=social-network
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=user
+
+    ports:
+      - 5432:5432
+    
+    volumes:
+      - ./postgres:/var/lib/postgresql/data
